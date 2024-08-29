@@ -14,7 +14,7 @@ const App = () => {
   const handleSubmit = async () => {
     const data = `Hi Gemini, I need help planning a ${days}-day travel itinerary. My destination is ${destination}, and I’ll be departing from ${location} with a budget of ${budget}. Can you provide a detailed, day-wise itinerary that includes recommendations for accommodations, activities, dining, and transportation, ensuring everything fits within the budget and duration? Please structure the response using the following JSON schema: [Insert Schema Here].`;
     try {
-      const response = await axios.post('https://travel-itinerary-backend-7e11.onrender.com', {
+      const response = await axios.post('https://travel-itinerary-backend-6gzc.onrender.com', {
         data,
       });
        // Parse the JSON data if necessary
